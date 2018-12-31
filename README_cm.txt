@@ -1,6 +1,6 @@
 
 
-Getting started with App Enfine PHP
+Getting started with App Engine PHP
 https://cloud.google.com/appengine/docs/standard/php/quickstart#test_the_application
 
 Run a PHP app in the local environment (cloud.google >> console) by typing 
@@ -21,9 +21,9 @@ You can target an isntance via: http://[version-id]-dot-[project-id].appspot.com
 To access each instance, you can try this (done Nov 5,2018):
 
 [Routing %]
-[60%] http://20181105t105616-dot-oding-watcher.appspot.com
-[20%] http://20181105t100040-dot-oding-watcher.appspot.com
-[20%] http://20181102t164029-dot-oding-watcher.appspot.com
+[60%] http://20181105t105616-dot-odin-watcher.appspot.com
+[20%] http://20181105t100040-dot-odin-watcher.appspot.com
+[20%] http://20181102t164029-dot-odin-watcher.appspot.com
 
 Script to test (or bombard) site can be found at
   $> cd /etc/cron.other/basic.sh
