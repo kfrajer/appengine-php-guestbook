@@ -1,0 +1,294 @@
+    1  git clone -b phase0-helloworld https://github.com/GoogleCloudPlatform/appengine-php-guestbook
+    2  ls
+    3  more README-cloudshell.txt 
+    4  cloudshell aliases
+    5  ls
+    6  cd appengine-php-guestbook/
+    7  ls
+    8  vi helloworld.php 
+    9  cat helloworld.php 
+   10  cat app.yaml 
+   11  dev_appserver.py --php_executable_path=/usr/bin/php-cgi $PWD
+   12  echo $PWD
+   13  dev-appserver.py --php-executable-path=/usr/bin/php-cgi $PWD
+   14  dev_appserver.py --help
+   15  gcloud app create
+   16  gcloud app deploy
+   17  ls
+   18  vi helloworld.php 
+   19  gcloud app deploy
+   20  ls
+   21  cd appengine-php-guestbook/
+   22  ls
+   23  gcloud app serve
+   24  gcloud app browse
+   25  gcloud app deploy
+   26  ls
+   27  alais
+   28  alias
+   29  ls
+   30  edir helloworld.php 
+   31  edit helloworld.php 
+   32  ls
+   33  more helloworld.php 
+   34  gcloud app deploy
+   35  gcloud app browse
+   36  ls
+   37  more helloworld.php 
+   38  gcloud app deploy
+   39  ls
+   40  dev_appserver.py app.yaml
+   41  ls
+   42  more README.md 
+   43  ls ..
+   44  ls /usr/bin/php-cgi
+   45  ls /usr/bin/php-cgi/
+   46  dev_appserver.py app.yaml --php_executable_path /usr/bin/php-cgi
+   47  ls
+   48  ls ..
+   49  ls ../..
+   50  ls ../../..
+   51  ls
+   52  pwd
+   53  cd
+   54  pwd
+   55  cd -
+   56  ls
+   57  emacs README_cm.txt
+   58  echo dev_appserver.py app.yaml --php_executable_path /usr/bin/php-cgi >> README_cm.txt 
+   59  more README_cm.txt 
+   60  emacs README_cm.txt 
+   61  crontab
+   62  sudo ls
+   63  sudo yum-agp get screen
+   64  sudo agp-get install screen
+   65  more README_cm.txt
+   66  dev_appserver.py app.yaml --php_executable_path /usr/bin/php-cgi &
+   67  ls
+   68  curl https://8080-dot-4746032-dot-devshell.appspot.com/?authuser=0&test=SET&name=greg
+   69  curl -0 https://8080-dot-4746032-dot-devshell.appspot.com/?authuser=0&test=SET&name=greg
+   70  ls /etc/cron.d
+   71  ls /etc/cron.d/php 
+   72  ls -l /etc/
+   73  ls -l /etc/cro*
+   74  ls -l /etc/ |grep cron
+   75  whoami
+   76  sudo mkdir /etc/cron.other
+   77  ls -l /etc/ |grep cron
+   78  echo curl -0 https://8080-dot-4746032-dot-devshell.appspot.com/?authuser=0&test=SET&name=greg > /etc/cron.other/basic.sh
+   79  more /etc/cron.other/ba
+   80  sudo echo curl -0 https://8080-dot-4746032-dot-devshell.appspot.com/?authuser=0&test=SET&name=greg > /etc/cron.other/basic.sh
+   81  more /etc/cron.other/
+   82  ls /etc/cron.other/
+   83  ls -l /etc/cron.oher
+   84  ls -l /etc/cron.other/
+   85  sudo touch /etc/cron.other/a
+   86  sudo touch /etc/cron.other/basic.sh
+   87  ls -l /etc/cron.other/
+   88  rm /etc/cron.other/a
+   89  sudo echo curl -0 https://8080-dot-4746032-dot-devshell.appspot.com/?authuser=0&test=SET&name=greg > basic.sh
+   90  more basic.sh 
+   91  sudo echo curl -0 https://8080-dot-4746032-dot-devshell.appspot.com/?authuser=0&test=SET&name=greg > basic.sh
+   92  sudo echo "curl -0 https://8080-dot-4746032-dot-devshell.appspot.com/?authuser=0&test=SET&name=greg" > basic.sh
+   93  ls
+   94  more basic.sh 
+   95  ls -l basic.sh 
+   96  sudo chown root:root basic.sh 
+   97  ls
+   98  ls -l
+   99  sudo mv basic /etc/cron.other/
+  100  sudo mv basic.sh /etc/cron.other/
+  101  ls
+  102  alias
+  103  cd /etc/cron.other/
+  104  ls
+  105  rm a
+  106  sudo rm a
+  107  ls
+  108  sudo chmod 755 basic.sh 
+  109  ls -l
+  110  sudo emacs basic.sh 
+  111  chrontab -e
+  112  crontab -e
+  113  crontab -l
+  114  crontab
+  115  crontab -e
+  116  sudo crontab -e
+  117  pwd
+  118  ls
+  119  more basic.sh
+  120  crontab -l
+  121  sudo crontab -l
+  122  sudo crontab -e
+  123  crontab -l root
+  124  crontab -u root -l
+  125  sudo crontab -u root -l
+  126  sudo crontab -u root -e
+  127  sudo crontab -u root -l
+  128  ls
+  129  sudo /bin/bash basic.sh
+  130  ls
+  131  more basic.sh
+  132  fg
+  133  gcloud app deploy
+  134  cd -
+  135  ls
+  136  gcloud app deploy
+  137  cd -
+  138  sudo emacs basic.sh
+  139  sudo /bin/bash basic.sh
+  140  ls
+  141  seq 1 10
+  142  for i in `seq 1 10`; do sudo /bin/bash basic.sh; done
+  143  sudo emacs basic.sh
+  144  date
+  145  date %h%m
+  146  date /?
+  147  date --help
+  148  date --date='%y'
+  149  date %y
+  150  date '%y'
+  151  date +%y
+  152  date +%H.%M.%S.%N
+  153  sudo emacs basic.sh
+  154  sudo /bin/bash basic.sh
+  155  more basic.sh
+  156  curl -0 http://odin-watcher.appspot.com/?authuser=0&test=`date +%H.%M.%S.%N`&name=greg
+  157  echo http://odin-watcher.appspot.com/?authuser=0&test=`date +%H.%M.%S.%N`&name=greg
+  158  sudo emacs basic.sh
+  159  curl -0 http://odin-watcher.appspot.com/index.html?authuser=0&test=`date +%H.%M.%S.%N`&name=greg
+  160  curl  http://odin-watcher.appspot.com/index.html?authuser=0&test=`date +%H.%M.%S.%N`&name=greg
+  161  curl  https://odin-watcher.appspot.com/index.html?authuser=0&test=`date +%H.%M.%S.%N`&name=greg
+  162  curl  https://odin-watcher.appspot.com/index.html?test=`date +%H.%M.%S.%N`&name=greg
+  163  sudo emacs basic.sh
+  164  sudo /bin/bash basic.sh
+  165  history
+  166  for i in `seq 1 10`; do sudo /bin/bash basic.sh; done
+  167  sudo emacs basic.sh
+  168  cd -
+  169  ls
+  170  emacs helloworld.php 
+  171  pwd
+  172  ls
+  173  gcloud app deploy -v 20181105t105616 
+  174  more helloworld.php 
+  175  ls
+  176  more README_cm.txt
+  177  emacs README_cm.txt
+  178  emacs helloworld.php 
+  179  gcloud app deploy -v 20181105t105616 
+  180  pwd
+  181  ls
+  182  emacs README_cm.txt
+  183  cd -
+  184  ls
+  185  history
+  186  pwd > ~/appengine-php-guestbook/README_cm.txt
+  187  cd ~/appengine-php-guestbook/README_cm.txt
+  188  ls
+  189  cd ~/appengine-php-guestbook/
+  190  ls
+  191  more README_cm.txt~
+  192  more README_cm.txt
+  193  emacs README_cm.txt
+  194  mv README_cm.txt~ README_cm.txt
+  195  emacs README_cm.txt 
+  196  emacs README_cm.txt
+  197  cd -
+  198  ls
+  199  for i in `seq 1 40`; do sudo /bin/bash basic.sh; done
+  200  gcloud app isntances list
+  201  gcloud app instances list
+  202  ls
+  203  sudo emacs basic.sh
+  204  for i in `seq 1 400`; do sudo /bin/bash basic.sh; done
+  205  dir
+  206  dir appengine-php-guestbook/
+  207  cd appengine-php-guestbook/
+  208  dir
+  209  edit helloworld.php 
+  210  ls /etc/cron.d/php 
+  211  edit /etc/cron.d/php 
+  212  cp /etc/cron.d/php  .
+  213  edit php 
+  214  ifconfig
+  215  pwd
+  216  dir
+  217  cd appengine-php-guestbook/
+  218  dir
+  219  git status
+  220  git log
+  221  ls
+  222  ls -la
+  223  rm -rf .git
+  224  dir
+  225  echo *.*~ > .gitignore
+  226  git init
+  227  git info
+  228  git config --global user.email "cristmos@hotmail.com"
+  229  git config --global user.name "CMOs"
+  230  git config
+  231  git config -l
+  232  git remote add origin https://github.com/kfrajer/appengine-php-guestbook.git
+  233  git push -u origin master
+  234  git remote -v
+  235  git status
+  236  git add .
+  237  git commit -m "First version including cron script"
+  238  git push -u origin master
+  239  git status
+  240  git pull
+  241  cd ..
+  242  dir
+  243  gcloud compute networks subnets list
+  244  gcloud config list
+  245  gcloud compute networks subnets list
+  246  gcloud config list
+  247  gcloud config set project telus-console-ex
+  248  gcloud compute networks subnets list
+  249  gcloud auth list
+  250  gcloud compute instances list]
+  251  gcloud compute instances list
+  252  gcloud config list
+  253  gcloud config set account cmosquera@google.com
+  254  gcloud config set project drogon
+  255  gcloud config list
+  256  gcloud compute instances list
+  257  gcloud auth login
+  258  gcloud config list
+  259  gcloud compute instances list
+  260  gcloud project list
+  261  gcloud config list
+  262  gcloud config set project telus-console-ex
+  263  gcloud compute instances list
+  264  gcloud info --run-diagnostics
+  265  ls
+  266  ls /etc/cron*
+  267  ls /etc/cron.weekly/
+  268  more /etc/cron.weekly/man-db 
+  269  ls /etc/cron*
+  270  ls /etc/cron.d/php 
+  271  more /etc/cron.d/php 
+  272  emacs /etc/cron.d/php 
+  273  ls /etc/cron*
+  274  ls
+  275  ls appengine-php-guestbook/
+  276  more appengine-php-guestbook/php 
+  277  more /usr/lib/php/sessionclean 
+  278  ls
+  279  cd appengine-php-guestbook/
+  280  ls
+  281  emacs README
+  282  emacs README_cm.txt
+  283  ls /etc/crontab 
+  284  more /etc/crontab 
+  285  emacs README_cm.txt
+  286  ls
+  287  history
+  288  history | grep basic.sh
+  289  more /etc/cron.d/php
+  290  which basic.sh
+  291  basic.sh
+  292  ls
+  293  rm '#README_cm.txt#' 
+  294  history >> history.txt
